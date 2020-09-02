@@ -5,7 +5,7 @@ import Button from "@material-ui/core/Button";
 const RandomComponent = () => {
   const notify = useNotification((state) => state.showNotification);
 
-  React.useEffect(() => console.log("updateing button"));
+  React.useEffect(() => console.log("updating button"));
 
   return (
     <>
